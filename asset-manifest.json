@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.6136c88f.chunk.css",
-    "main.js": "/static/js/main.eefedd1a.chunk.js",
-    "main.js.map": "/static/js/main.eefedd1a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2101719f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2101719f.js.map",
-    "static/js/2.d9903876.chunk.js": "/static/js/2.d9903876.chunk.js",
-    "static/js/2.d9903876.chunk.js.map": "/static/js/2.d9903876.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.76ad46a75e69d7ad6cf794b7560219ce.js": "/precache-manifest.76ad46a75e69d7ad6cf794b7560219ce.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.6136c88f.chunk.css.map": "/static/css/main.6136c88f.chunk.css.map",
-    "static/js/2.d9903876.chunk.js.LICENSE.txt": "/static/js/2.d9903876.chunk.js.LICENSE.txt",
-    "static/media/Resume.pdf": "/static/media/Resume.9309b3a7.pdf",
-    "static/media/profilePicture.jpg": "/static/media/profilePicture.14597274.jpg"
+    "main.css": "/react-portfolio/static/css/main.6136c88f.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.e1dd76fe.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.e1dd76fe.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.0319e79d.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.0319e79d.js.map",
+    "static/js/2.d9903876.chunk.js": "/react-portfolio/static/js/2.d9903876.chunk.js",
+    "static/js/2.d9903876.chunk.js.map": "/react-portfolio/static/js/2.d9903876.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.6a70a78736d4af1cd5390199cb5a1b99.js": "/react-portfolio/precache-manifest.6a70a78736d4af1cd5390199cb5a1b99.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.6136c88f.chunk.css.map": "/react-portfolio/static/css/main.6136c88f.chunk.css.map",
+    "static/js/2.d9903876.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.d9903876.chunk.js.LICENSE.txt",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.9309b3a7.pdf",
+    "static/media/profilePicture.jpg": "/react-portfolio/static/media/profilePicture.14597274.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2101719f.js",
+    "static/js/runtime-main.0319e79d.js",
     "static/js/2.d9903876.chunk.js",
     "static/css/main.6136c88f.chunk.css",
-    "static/js/main.eefedd1a.chunk.js"
+    "static/js/main.e1dd76fe.chunk.js"
   ]
 }
