@@ -3,7 +3,7 @@ import "./style.css";
 
 function Container (props) {
     return (
-        <div className ="contect-wrapper">
+        <div className ="context-wrapper">
                 {props.children}
         </div>
     )

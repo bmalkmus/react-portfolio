@@ -67,8 +67,8 @@ function Portfolio () {
 
 
     return (
-        <div>
-            <h1 className = "text-center"> Portfolio</h1>
+        <div className ="context">
+            <h1 className = "text-center portTitle"> Portfolio</h1>
             <Row>
                 <ProjectCard 
                     name = {proj.name}

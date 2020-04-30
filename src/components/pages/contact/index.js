@@ -21,10 +21,10 @@ function Contact() {
     }
 
     return (
-        <div className="container context">
+        <div className="container contextCont">
         <div className="row">
             <div className="col-md-12">
-                <h1>Contact</h1>
+                <h1 id ="contTitle">Contact</h1>
             </div>
         </div>
 

@@ -3,7 +3,7 @@ import "./style.css";
 import profile from "./profilePicture.jpg"
 function aboutMe () {
     return (
-        <div className="container context">
+        <div className="container contextMe">
             <div className = "row">
                 <div className = "col-md-12"> 
                     <h1>About Me</h1>
@@ -11,7 +11,7 @@ function aboutMe () {
 
             </div>
             <div className="row">
-                    <div className="col-md-3 col-sm-12">
+                    <div className="col-md-3 col-sm-12 img-contain">
                         <img src = {profile} className="d-block m-auto profilePic" alt="profile"/>
                     </div>
                     <div className="col-md-9 col-sm-12">
