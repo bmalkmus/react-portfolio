@@ -15,7 +15,7 @@ function NavBar() {
             <ul className = "navbar-nav">
                 <li className = "nav-item">
                     <Link
-                        to="/about"
+                        to="/react-portfolio/about"
                         className={location.pathname === "/about" ? "nav-link active header-link" : "nav-link header-link"}
                     >
                         About
@@ -23,7 +23,7 @@ function NavBar() {
                 </li>
                 <li className = "nav-item">
                     <Link
-                        to="/portfolio"
+                        to="/react-portfolio/portfolio"
                         className={location.pathname === "/portfolio" ? "nav-link active header-link" : "nav-link header-link"}
                     >
                         Portfolio
@@ -31,7 +31,7 @@ function NavBar() {
                 </li>
                 <li className = "nav-item">
                     <Link
-                        to="/contact"
+                        to="/react-portfolio/contact"
                         className={location.pathname === "/contact" ? "nav-link active header-link" : "nav-link header-link"}
                     >
                         Contact

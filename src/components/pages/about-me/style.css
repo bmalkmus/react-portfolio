@@ -47,3 +47,11 @@ p {
         visibility: hidden;
     }
 }
+
+@media only screen and (min-width: 768px){
+    .profilePic {
+        width: 160px;
+        height: 160px;
+        border-radius: 5px;
+    }
+}

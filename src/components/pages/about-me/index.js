@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import profile from "./profilePicture.jpg"
-function aboutMe () {
+function AboutMe () {
     return (
         <div className="container contextMe">
             <div className = "row">
@@ -28,4 +28,4 @@ function aboutMe () {
     )
 }
 
-export default aboutMe;
+export default AboutMe;
