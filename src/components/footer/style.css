@@ -21,3 +21,19 @@ a:link {
     text-align: center;
     margin-bottom: 0;
 }
+
+@media only screen and (max-width: 286px){
+    .footer23{
+        font-size: 15px;
+        width: 100%;
+        
+    }   
+}
+
+@media only screen and (max-width: 205px){
+    .footer23{
+        font-size: 8px;
+        
+    }
+    
+}

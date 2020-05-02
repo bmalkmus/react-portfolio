@@ -17,7 +17,7 @@ function App() {
               <NavBar/>
               <Container>
                   <Switch>
-                      <Route exact path={["/react-portfolio/", "/react-portfolio/about"]}>
+                      <Route exact path={["/", "/react-portfolio/", "/react-portfolio/about"]}>
                           <AboutMe/>
                       </Route>
 

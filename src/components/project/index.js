@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import {FaForward, FaBackward} from 'react-icons/fa'
 
 
 function ProjectCard ({name, deployed, repo, imagePath, btnClick}) {
@@ -10,7 +9,7 @@ function ProjectCard ({name, deployed, repo, imagePath, btnClick}) {
             <h2>{name}</h2>
             <div className = "card-contain">
             <div onClick = {btnClick} data-value = "back" className ="BTN">
-                <FaBackward/>
+                <p data-value ="back"> &lt;&lt; </p>
             </div>
 
             <div className ="projectContent">
@@ -19,21 +18,20 @@ function ProjectCard ({name, deployed, repo, imagePath, btnClick}) {
                 <p className = "links"> 
                     Deployed: 
 
-                    <a target = "_blank" rel="noopener noreferrer" href ={deployed}>
+                    <a className = "links" target = "_blank" rel="noopener noreferrer" href ={deployed}>
                         {deployed}
                     </a> 
                 </p>
                 <p className = "links"> 
                     Github: 
-                    
-                    <a target = "_blank" rel="noopener noreferrer" href ={repo}>
+                    <a  className = "links" target = "_blank" rel="noopener noreferrer" href ={repo}>
                         {repo}
-                    </a> 
+                    </a>
                 </p>
             </div>
 
-            <div onClick = {btnClick} data-value = "forward" className ="BTN">
-                <FaForward/>
+            <div onClick = {btnClick} data-value="forward" className ="BTN">
+                <p data-value="forward"> &gt;&gt; </p>
             </div>
             </div>
         </div>

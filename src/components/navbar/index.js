@@ -7,9 +7,11 @@ import { Link, useLocation } from "react-router-dom";
 function NavBar() {
     const location = useLocation();
     return (
-    <nav className ="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 topNav border-bottom shadow-sm">
-        <div className ="my-0 mr-md-auto font-weight-normal name">
-            <p className ="nameP"> Benjamin Malkmus </p>
+    <nav className ="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 topNav shadow-sm">
+        <div className ="my-0 mr-md-auto name">
+            <div className = "innerCutout">
+                <p className ="nameP"> Benjamin Malkmus </p>
+            </div>
         </div>
         <div className = "my-2 my-md-0 mr-md-3 navbar-expand" id="navbarNav">
             <ul className = "navbar-nav">

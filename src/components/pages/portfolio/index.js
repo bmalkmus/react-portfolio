@@ -44,7 +44,7 @@ function Portfolio () {
     }
 
     function btnClick(event) {
-        const btnName = event.target.getAttribute("data-value");
+        const btnName = event.target.dataset.value
         if (btnName ==="forward") {
             const newIndex = proIndex + 1;
             nextPro(newIndex);
@@ -54,17 +54,6 @@ function Portfolio () {
             previousPro(newIndex);
         }
     }
-
-    // function loadProjects (){
-    //     // API.getProjects()
-    //    let Projects = {projects}
-    //    console.log(Projects.projects.projects)
-    //    Projects = Projects.projects.projects
-    //    setProjects(Projects);
-    //    setProject(Projects[0]);
-    //    console.log(proj.image);
-    // }
-
 
     return (
         <div className ="context">
