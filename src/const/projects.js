@@ -20,6 +20,12 @@ export const projects = [
         imgPath: `${process.env.PUBLIC_URL}/images/WorkdayPlan.png`
     },
     {
+        name: "React Google Books Search",
+        deployed:"https://book-react-google.herokuapp.com/",
+        repo: "https://github.com/bmalkmus/GoogleBookSearch",
+        imgPath: `${process.env.PUBLIC_URL}/images/GoogleBook.png`
+    },
+    {
         name: "Weather App",
         deployed:"https://bmalkmus.github.io/WeatherApp/",
         repo: "https://github.com/bmalkmus/WeatherApp",
