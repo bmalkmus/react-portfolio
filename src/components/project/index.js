@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 
-function ProjectCard ({name, deployed, repo, imagePath, btnClick}) {
+function ProjectCard ({name, deployed, repo, imagePath, btnClick, descript, tech}) {
     return (
         <div className="card">
 
@@ -14,6 +14,10 @@ function ProjectCard ({name, deployed, repo, imagePath, btnClick}) {
 
             <div className ="projectContent">
                 <img className = "screenshot" src = {imagePath} alt ={name}/>
+
+                <p className = "information"> <span>Description:</span> {descript} </p>
+
+                <p className = "information"> <span>Technologies Used:</span> {tech} </p>
 
                 <p className = "links"> 
                     Deployed: 

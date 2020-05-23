@@ -25,6 +25,7 @@ function Contact() {
         <div className="row">
             <div className="col-md-12">
                 <h1 id ="contTitle">Contact</h1>
+                <h5>Benjamin.Malkmus@outlook.com</h5>
             </div>
         </div>
 

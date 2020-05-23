@@ -17,6 +17,17 @@ h2 {
     text-align: center;
 }
 
+.information {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+span {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
 .screenshot {
     width: 60%;
     

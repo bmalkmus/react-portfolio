@@ -62,8 +62,11 @@ function Portfolio () {
                 <ProjectCard 
                     name = {proj.name}
                     repo = {proj.repo}
+                    descript = {proj.description}
+                    tech = {proj.technologies}
                     deployed = {proj.deployed}
                     imagePath ={proj.imgPath}
+
                     btnClick = {btnClick}
                 />
             </Row>
